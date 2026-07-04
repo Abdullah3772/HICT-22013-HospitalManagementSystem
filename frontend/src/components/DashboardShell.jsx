@@ -18,7 +18,6 @@ import {
   DashboardSummary,
 } 
 from './Modules';
-
 const moduleMap = {
   dashboardHome: { label: 'Dashboard Home', component: DashboardSummary },
   doctorManagement: { label: 'Doctor Management', component: DoctorManagement },
@@ -82,7 +81,7 @@ function DashboardShell({ user, stats, announcements, onLogout }) {
                       borderRadius: 3,
                       mb: 1,
                       '&.Mui-selected': {
-                        bgcolor: 'rgba(37, 99, 235, 0.12)',
+                        bgcolor: 'rgba(45, 106, 239, 0.12)',
                         color: '#1d4ed8',
                       },
                     }}
