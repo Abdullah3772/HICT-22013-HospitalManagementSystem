@@ -13,7 +13,7 @@ import {
   Typography,
 } from '@mui/material';
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost/HICT-22013-Hospital-Management-System/backend/api.php';
+const API_BASE = import.meta.env.VITE_API_BASE_URL || 'http://localhost/HICT-22013-HospitalManagementSystem/backend/api.php';
 
 const formatLabel = (field) => field.replace(/_/g, ' ').replace(/\b\w/g, (l) => l.toUpperCase());
 
