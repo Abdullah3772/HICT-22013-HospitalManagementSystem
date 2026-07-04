@@ -29,7 +29,7 @@ try {
     $db = connectInstall();
     $adminUsername = 'admin';
     $adminEmail = 'admin@nationalhospital.lk';
-    $adminPhone = '011 234 5678';
+    $adminPhone = '0759817361';
 
     $roleStmt = $db->prepare('SELECT role_id FROM roles WHERE role_name = ?');
     $roleStmt->execute(['Super Admin']);
@@ -55,7 +55,6 @@ try {
         echo "Password must be at least 8 characters.\n";
         exit(1);
     }
-
     $insert = $db->prepare('INSERT INTO users (username, password_hash, role_id, full_name, email, phone) VALUES (?, ?, ?, ?, ?, ?)');
     $insert->execute([
         $adminUsername,
