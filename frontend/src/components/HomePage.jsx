@@ -93,6 +93,7 @@ function HomePage({ onOpenLogin, announcements = [], stats = {} }) {
     icuOccupancyRate: stats.icu_occupancy_rate ?? 0,
   };
 
+  
   return (
     <Box sx={{ bgcolor: themeColors.lightBg, minHeight: '100vh', pb: 4 }}>
       <Container maxWidth="lg">
