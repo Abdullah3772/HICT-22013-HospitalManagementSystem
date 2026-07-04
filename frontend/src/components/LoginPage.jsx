@@ -92,7 +92,7 @@ function LoginPage({ loginType, onLogin, onBack }) {
                 height: '100%',
                 bgcolor: themeColors.panelBg,
                 color: '#0f172a',
-                boxShadow: '0 24px 60px rgba(37, 99, 235, 0.08)',
+                boxShadow: '0 24px 60px rgba(32, 97, 237, 0.08)',
               }}
             >
               <Stack spacing={2}>
@@ -197,7 +197,7 @@ function LoginPage({ loginType, onLogin, onBack }) {
                       fontWeight: 700,
                       py: 1.2,
                       '&:hover': {
-                        bgcolor: '#db2777',
+                        bgcolor: '#dc1f74',
                       },
                     }}
                   >
