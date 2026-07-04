@@ -7,8 +7,7 @@ define('DB_HOST', getenv('DB_HOST') ?: '127.0.0.1');
 define('DB_NAME', getenv('DB_NAME') ?: 'ishis');
 define('DB_USER', getenv('DB_USER') ?: 'root');
 define('DB_PASS', getenv('DB_PASS') ?: '');
-define('API_BASE_URL', '/HICT-22013-Hospital-Management-System/backend/api.php');
-
+define('API_BASE_URL', '/HICT-22013-HospitalManagementSystem/backend/api.php');
 
 // Comma-separated list of allowed CORS origins (e.g. "http://localhost:5173,https://hospital.example.com").
 define('CORS_ALLOWED_ORIGINS', getenv('CORS_ALLOWED_ORIGINS') ?: 'http://localhost:5173');
