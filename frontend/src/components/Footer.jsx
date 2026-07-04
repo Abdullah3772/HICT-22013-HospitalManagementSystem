@@ -1,13 +1,12 @@
 import { Box, Container, Grid, Paper, Stack, Typography, Link } from '@mui/material';
 
-
 function Footer() {
   return (
     <Box component="footer" sx={{ mt: 6 }}>
       <Paper elevation={3} sx={{
         p: 4,
         borderRadius: 4,
-        backgroundImage: 'linear-gradient(90deg, #2563eb 0%, #ec4899 100%)',
+        backgroundImage: 'linear-gradient(90deg, #1d5ee9 0%, #ec4899 100%)',
         color: 'common.white',
       }}>
         <Container maxWidth="lg">
