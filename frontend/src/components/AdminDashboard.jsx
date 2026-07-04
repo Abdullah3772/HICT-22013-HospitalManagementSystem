@@ -51,5 +51,4 @@ function AdminDashboard({ user, stats, announcements, onLogout }) {
     </div>
   );
 }
-
 export default AdminDashboard;
