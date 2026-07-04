@@ -21,6 +21,7 @@ CREATE TABLE users (
   FOREIGN KEY (role_id) REFERENCES roles(role_id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
+
 CREATE TABLE doctors (
   doctor_id INT AUTO_INCREMENT PRIMARY KEY,
   user_id INT NOT NULL,
