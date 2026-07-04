@@ -1,6 +1,4 @@
 import React from 'react';
-
-
 function AdminDashboard({ user, stats, announcements, onLogout }) {
   return (
     <div className="page-container">
